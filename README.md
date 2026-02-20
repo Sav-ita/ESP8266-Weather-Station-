@@ -1,4 +1,4 @@
-# ESP8266 Weather Widget V2.0
+# ESP8266 Weather Station
 
 This project creates a small desktop weather display based on the **ESP8266** and a **2.8" TFT display**.
 
