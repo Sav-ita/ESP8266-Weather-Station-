@@ -32,27 +32,25 @@ The idea was to have a compact, attractive weather widget that would always be o
 
 ### TFT → Wemos
 
-| TFT  | Wemos |
-|------|--------|
-| VIN  | 3.3V   |
-| GND  | GND    |
-| CS   | D1     |
-| RESET| RST    |
-| DC   | D2     |
-| SDI  | D7     |
-| SCK  | D5     |
-| LED  | D8     |
-| SDO  | D6     |
+ TFT -> Wemos 
+ VIN -> 3.3V   
+ GND -> GND    
+ CS ->D1     
+ RESET -> RST    
+ DC -> D2     
+ SDI -> D7     
+ SCK -> D5     
+ LED -> D8     
+ SDO -> D6     
 
 ### Touch
 
-| Touch | Wemos |
-|--------|--------|
-| T_CLK  | D5     |
-| T_CS   | D3     |
-| T_DIN  | D7     |
-| T_DO   | D6     |
-| T_IRQ  | D4     |
+ Touch Wemos 
+ T_CLK -> D5     
+ T_CS -> D3     
+ T_DIN -> D7     
+ T_DO -> D6     
+ T_IRQ -> D4     
 
 ---
 
@@ -73,12 +71,6 @@ Select the board:
 
 ---
 
-## Libraries
-
-Original project repository:
-
-<https://github.com/ThingPulse/esp8266-weather-station-color>
-
 ### Required Libraries
 
 - Mini Grafx  
@@ -97,32 +89,6 @@ You need a free API key.
 1. Register at: <https://openweathermap.org>  
 2. Create an API key  
 3. Insert it into the `settings.h` file along with your WiFi credentials  
-
----
-
-## Upload Procedure
-
-1. Download the repository  
-2. Rename the folder to **esp8266-weather-station-color**  
-3. Open `esp8266-weather-station-color.ino`  
-4. Configure the `settings.h` file  
-5. Upload the sketch  
-
-On first boot, a temporary WiFi network is created for initial configuration.
-
----
-
-## 3D Case
-
-STL files available on Thingiverse:
-
-<https://www.thingiverse.com/thing:4928974>
-
-### Printing Tips
-
-- Layer height: **0.2 mm**  
-- Infill: **20%**  
-- Material: **Standard PLA**
 
 ---
 
