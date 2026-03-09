@@ -18,17 +18,23 @@ The idea was to have a compact, attractive weather widget that would always be o
 
 ---
 
-## Hardware Used
+## BOM
 
-- Wemos D1 Mini Pro (ESP8266)  
-- 2.8" ILI9341 TFT display with touch screen  
-- Thin AWG 26 or 30 cables  
-- 3D-printed case  
-- USB power supply  
+1. Wemos D1 Mini Pro (ESP8266)
+2. 2.8" ILI9341 TFT display with touch screen
+3. Thin AWG 26 or 30 cables
 
 ---
+## CAD
 
+<img src="./Images/2.png" width="400">
+<img src="./Images/3.png" width="400">
+<img src="./Images/4.png" width="400">
+
+---
 ## Connections
+
+<img src="./Images/1.png" width="400">
 
 ### TFT → Wemos
 
