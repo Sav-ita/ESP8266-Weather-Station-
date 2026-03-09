@@ -20,9 +20,11 @@ The idea was to have a compact, attractive weather widget that would always be o
 
 ## BOM
 
-1. Wemos D1 Mini Pro (ESP8266)
-2. 2.8" ILI9341 TFT display with touch screen
-3. Thin AWG 26 or 30 cables
+| Component | Quantity | Link |
+|-----------|---------|------|
+| Wemos D1 Mini Pro (ESP8266) | 1 | [Amazon Link](https://amzn.eu/d/0iJDSxxK) |
+| 2.8" ILI9341 TFT Display with touch screen | 1 | [Amazon Link](https://amzn.eu/d/05ybijSV) |
+| Thin AWG 26 or 30 cables | several | [Amazon Link](https://a.co/d/0hL0mJ5J) |
 
 ---
 ## CAD
@@ -30,6 +32,13 @@ The idea was to have a compact, attractive weather widget that would always be o
 <img src="./Images/2.png" width="400">
 <img src="./Images/3.png" width="400">
 <img src="./Images/4.png" width="400">
+
+---
+
+## PCB
+
+No custom PCB was designed for this project.  
+All components are connected using wires as shown in the wiring diagram above.
 
 ---
 ## Connections
@@ -69,6 +78,25 @@ Install ESP8266 support by adding this URL to the **Board Manager**:
 Select the board:
 
 **LOLIN (WEMOS) D1 R2 & mini**
+
+---
+
+## How to Use
+
+1. Open `weather_station.ino` in Arduino IDE.  
+2. Insert your WiFi credentials and OpenWeatherMap API key in `settings.h`.  
+3. Upload the firmware to the Wemos D1 Mini Pro.  
+4. Once powered, the device will automatically connect to WiFi and display current weather, forecast, time, and date.  
+5. Use the touchscreen to navigate between different weather screens.
+
+---
+
+## Why I Made This Project
+
+I wanted a small, always-on weather display for my desk that is compact, visually appealing, and reliable.  
+This project simplifies the original ThingPulse design while providing a fully custom enclosure and wiring layout.
+
+---
 
 ### Recommended Settings
 
