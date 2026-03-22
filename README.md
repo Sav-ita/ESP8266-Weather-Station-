@@ -32,7 +32,8 @@ The idea was to have a compact, attractive weather widget that would always be o
 <img src="./Images/2.png" width="400">
 <img src="./Images/3.png" width="400">
 <img src="./Images/4.png" width="400">
-
+<img src="./Images/assembled_front.png" width="400">
+<img src="./Images/assembled_back.png" width="400">
 ---
 
 ## PCB
